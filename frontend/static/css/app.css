@@ -1,9 +1,21 @@
 .pokielist{
     display: flex;
     justify-content: space-between;
-
+    background-color: rgb(207, 213, 218);
     margin: 5% 10% auto 10%;
+    border: rgb(207, 213, 218);
+    border-width: 50px;
+    border-style: solid;
+    border-radius: 20px;
     
+    
+}
+
+img{
+    padding-left: 18%;
+    padding-right: 18%;
+    padding-top: 25%;
+    padding-bottom: 20%;
 }
 body{
     padding-top: 5%;
@@ -17,37 +29,28 @@ h1{
     font-size: 160%;
 }
 .card1{
-    box-shadow: 7px 7px 1px 1px gray;
+    border: 2px solid green;
     box-sizing: border-box;
     flex-basis: 20%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 10%;
-    padding-bottom: 5%;
     background-color: lightgreen;
+    border-radius: 15px;
 }
 
 .card2
 {
-    box-shadow: 7px 7px 1px 1px gray;
+    border: 2px solid palevioletred;
     box-sizing: border-box;
     flex-basis: 20%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 10%;
-    padding-bottom: 5%;
     background-color: pink;
+    border-radius: 15px;
 }
 
 .card3
 {
-    box-shadow: 7px 7px 3px 3px gray;
+    border: 2px solid rgb(48, 110, 139);
     box-sizing: border-box;
     flex-basis: 20%;
-    padding-left: 3%;
-    padding-right: 3%;
-    padding-top: 10%;
-    padding-bottom: 5%;
     background-color: aqua;
+    border-radius: 15px;
  
 }
