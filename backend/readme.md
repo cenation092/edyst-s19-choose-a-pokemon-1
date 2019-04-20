@@ -13,7 +13,8 @@ in our case it returns
     ]
 }"
 
-how to execute
+How to execute:
+
 1.after the setup is completed Save the code in a note pad file using extension ".py".
 2.run it using command "python app.py." in command prompt.
 3.open web browser goto http://localhost:8006/api/pokemon.
