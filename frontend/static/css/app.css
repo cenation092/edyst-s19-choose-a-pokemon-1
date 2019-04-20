@@ -1,1 +1,53 @@
+.pokielist{
+    display: flex;
+    justify-content: space-between;
 
+    margin: 5% 10% auto 10%;
+    
+}
+body{
+    padding-top: 5%;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(82, 138, 180);
+}
+.cardname{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 160%;
+}
+.card1{
+    box-shadow: 7px 7px 1px 1px gray;
+    box-sizing: border-box;
+    flex-basis: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: lightgreen;
+}
+
+.card2
+{
+    box-shadow: 7px 7px 1px 1px gray;
+    box-sizing: border-box;
+    flex-basis: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: pink;
+}
+
+.card3
+{
+    box-shadow: 7px 7px 3px 3px gray;
+    box-sizing: border-box;
+    flex-basis: 20%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 10%;
+    padding-bottom: 5%;
+    background-color: aqua;
+ 
+}
