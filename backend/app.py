@@ -1,5 +1,5 @@
 #imports the required modules Flask,json
-from flask import Flask
+from flask import Flask,render_template
 import json
 
 app = Flask(__name__)
