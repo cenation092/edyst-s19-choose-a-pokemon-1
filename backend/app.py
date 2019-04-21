@@ -7,7 +7,7 @@ app = Flask(__name__)
 #handels the wrong url constructions.
 @app.errorhandler(404)
 def page_not_found(e):
-	return render_template("404.html")
+	return render_template("404.html"),404
 
 #main route for the api call i.e api/pokemon 
 @app.route('/api/pokemon')
