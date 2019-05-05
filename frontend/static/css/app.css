@@ -1,14 +1,11 @@
+
 .pokielist{
     display: flex;
-    justify-content: space-between;
+    height: 500px;
+    margin: 40px auto auto auto;
+    max-width: 800px;
     background-color: rgb(207, 213, 218);
-    margin: 5% 10% auto 10%;
-    border: rgb(207, 213, 218);
-    border-width: 50px;
-    border-style: solid;
-    border-radius: 20px;
-    
-    
+    justify-content: center;
 }
 
 img{
@@ -21,14 +18,24 @@ body{
     padding-top: 5%;
 }
 h1{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace, monospace;
     color: rgb(82, 138, 180);
 }
 .cardname{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace, monospace;
     font-size: 160%;
 }
-.card1{
+
+.pokemon{
+    margin: auto;
+    padding: 6px;
+    font-size: 12px;
+    height: 300px;
+    min-width: 220px;
+    cursor: pointer;
+}
+
+#card1{
     border: 2px solid green;
     box-sizing: border-box;
     flex-basis: 20%;
@@ -36,7 +43,7 @@ h1{
     border-radius: 15px;
 }
 
-.card2
+#card2
 {
     border: 2px solid palevioletred;
     box-sizing: border-box;
@@ -45,7 +52,7 @@ h1{
     border-radius: 15px;
 }
 
-.card3
+#card3
 {
     border: 2px solid rgb(48, 110, 139);
     box-sizing: border-box;
@@ -54,3 +61,33 @@ h1{
     border-radius: 15px;
  
 }
+
+.id {
+    margin-top: 12px;
+    margin-left: 10px;
+    width: 60px;
+    height: 25px;
+    border-radius: 5px;
+    font-family: monospace, monospace;
+    font-size: 17px;
+}
+
+#no1{
+    background-color: rgb(20, 161, 20);
+}
+#no4{
+    background-color: rgb(218, 26, 26);
+}
+#no7{
+    background-color: rgb(28, 121, 209);
+}
+.text{
+    height: 25px;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 62.5%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
